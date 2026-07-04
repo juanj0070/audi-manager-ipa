@@ -1,0 +1,24 @@
+{
+  "name": "audit-manager-ipa",
+  "version": "1.0.0",
+  "description": "Plugin Jira: Índice de Prioridad de Auditoría (IPA) basado en ISO/IEC 25010",
+  "main": "index.js",
+  "scripts": {
+    "build": "forge build",
+    "deploy": "forge deploy",
+    "forge:install": "forge install",
+    "register": "forge register",
+    "tunnel": "forge tunnel"
+  },
+  "dependencies": {
+    "@forge/resolver": "^1.8.0",
+    "@forge/api": "^7.2.0",
+    "@forge/kvs": "^1.6.3",
+    "@forge/react": "^11.16.0",
+    "@forge/bridge": "^5.16.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
