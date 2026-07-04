@@ -59,7 +59,7 @@ function calculateAndRankRequirements(requirements, currentSprint) {
     .sort((a, b) => b.ipaScore - a.ipaScore);
 }
 
-// Catálogo de prueba (ejemplo de CATALOGS_EXAMPLES.md)
+// Catálogo de prueba para validación manual
 const sampleCatalog = [
   {
     key: "SEC-001",
